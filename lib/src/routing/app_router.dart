@@ -95,6 +95,7 @@ GoRouter goRouter(GoRouterRef ref) {
           return ScaffoldWithNestedNavigation(navigationShell: navigationShell);
         },
         branches: [
+          // Jobs
           StatefulShellBranch(
             navigatorKey: _jobsNavigatorKey,
             routes: [
@@ -174,6 +175,7 @@ GoRouter goRouter(GoRouterRef ref) {
               ),
             ],
           ),
+          // Entries
           StatefulShellBranch(
             navigatorKey: _entriesNavigatorKey,
             routes: [
@@ -186,6 +188,7 @@ GoRouter goRouter(GoRouterRef ref) {
               ),
             ],
           ),
+          // Account
           StatefulShellBranch(
             navigatorKey: _accountNavigatorKey,
             routes: [
