@@ -1,10 +1,1 @@
-{
-  "hosting": {
-    "public": "build/web",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ]
-  }
-}
+{"hosting":{"public":"build/web","ignore":["firebase.json","**/.*","**/node_modules/**"]},"flutter":{"platforms":{"android":{"default":{"projectId":"starter-architecture-flu-58468","appId":"1:1062434275785:android:066ae1a579b513d8032818","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"starter-architecture-flu-58468","configurations":{"android":"1:1062434275785:android:066ae1a579b513d8032818","ios":"1:1062434275785:ios:20f5f0afce42b97d032818","web":"1:1062434275785:web:873e25a0ba6db1a7032818"}}}}}}

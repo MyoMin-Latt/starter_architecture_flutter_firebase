@@ -9,6 +9,7 @@ class CustomProfileScreen extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final authProviders = ref.watch(authProvidersProvider);
+    print(authProviders);
     return ProfileScreen(
       appBar: AppBar(
         title: const Text('Profile'),
